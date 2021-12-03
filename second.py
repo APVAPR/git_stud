@@ -1,24 +1,3 @@
-g = 1, 4, 5, 6, 7, 6
-print('Secondgit')
-
-for i in g:
-    print(i)
-
-
-def ppp(a: tuple):
-    print(a[-1])
-
-
-ppp(g)
-
-
-def tt(b: int):
-    print(b)
-
-
-tt(4)
-
-
 class Robot:
     count = 0
 
@@ -32,3 +11,6 @@ class Robot:
 
 
 
+r1 = Robot('Chester', 'xfr123')
+r2 = Robot('Molihut', 'ccrf43')
+r3 = Robot('Turifost', 'fff321')
