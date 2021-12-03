@@ -1,1 +1,1 @@
-print('First')
+a = print('First')
