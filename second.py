@@ -25,7 +25,10 @@ class Robot:
     def __init__(self, name, model):
         self.name = name
         self.model = model
+        Robot.count += 1
 
     def __str__(self):
-        return 'I am robot {} {}'.format(self.name, self.model)
+        return 'I am robot {} {}. We have {} person'.format(self.name, self.model, Robot.count)
+
+
 
