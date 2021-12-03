@@ -9,3 +9,9 @@ def ppp(a: tuple):
     print(a[-1])
 
 ppp(g)
+
+def tt(b: int):
+    print(b)
+
+
+tt(4)
