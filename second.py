@@ -18,15 +18,6 @@ class Robot:
     def __str__(self):
         return 'I am robot {} {}. We have {} person'.format(self.name, self.model, Robot.count)
 
-
-r1 = Robot('Chester', 'xfr123')
-r2 = Robot('Molihut', 'ccrf43')
-r3 = Robot('Turifost', 'fff321')
-
-print(r1)
-r4 = Robot('Ruru', 'trv13')
-print(r4)
-
 class Cyborg(Robot):
     count = 0
 
@@ -38,5 +29,17 @@ class Cyborg(Robot):
 
     def __str__(self):
         return f'I am cyborg {self.name}. We have {self.count} person'
+
+
+r1 = Robot('Chester', 'xfr123')
+r2 = Robot('Molihut', 'ccrf43')
+r3 = Robot('Turifost', 'fff321')
+
+print(r1)
+r4 = Robot('Ruru', 'trv13')
+print(r4)
+
+
 x = Cyborg('Gugu', 'dfe', 'rubuti', 2076)
 print(x)
+
