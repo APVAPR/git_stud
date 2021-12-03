@@ -14,3 +14,7 @@ class Robot:
 r1 = Robot('Chester', 'xfr123')
 r2 = Robot('Molihut', 'ccrf43')
 r3 = Robot('Turifost', 'fff321')
+
+print(r1)
+r4 = Robot('Ruru', 'trv13')
+print(r4)
